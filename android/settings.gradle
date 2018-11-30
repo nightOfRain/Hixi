@@ -1,0 +1,29 @@
+rootProject.name = 'Hixi'
+include ':react-native-picker'
+project(':react-native-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker/android')
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-yunpeng-alipay'
+project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+include ':react-native-record-sound'
+project(':react-native-record-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-record-sound/android')
+include ':react-native-barcodescanner'
+project(':react-native-barcodescanner').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-barcodescanner/android')
+include ':react-native-contacts'
+project(':react-native-contacts').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-contacts/android')
+include ':react-native-http-cache'
+project(':react-native-http-cache').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-http-cache/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-spinkit'
+project(':react-native-spinkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spinkit/android')
+include ':rn-splash-screen'
+project(':rn-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/rn-splash-screen/android')
+include ':react-native-baidu-map'
+project(':react-native-baidu-map').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-baidu-map/android')
+
+include ':app'
